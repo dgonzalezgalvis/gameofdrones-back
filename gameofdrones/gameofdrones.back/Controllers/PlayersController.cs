@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Description;
 using gameofdrones.back.Models;
 
@@ -71,6 +72,7 @@ namespace gameofdrones.back.Controllers
         }
 
         // POST: api/Players
+        [EnableCors(origins: "http://gameofdronesfront.azurewebsites.net", headers: "*", methods: "*")]
         [ResponseType(typeof(Player))]
         public IHttpActionResult PostPlayer(Player player)
         {
@@ -79,7 +81,16 @@ namespace gameofdrones.back.Controllers
                 return BadRequest(ModelState);
             }
 
-            db.Players.Add(player);
+            var existingplayer = db.Players.FirstOrDefault(p => p.Name == player.Name);
+            if(existingplayer != null)
+            {
+                existingplayer.Score++;
+            } else
+            {
+                player.Score = 1;
+                db.Players.Add(player);
+            }
+            
             db.SaveChanges();
 
             return CreatedAtRoute("DefaultApi", new { id = player.Id }, player);

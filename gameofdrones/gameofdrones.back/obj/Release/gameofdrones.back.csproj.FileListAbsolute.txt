@@ -96,3 +96,6 @@ C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\Entity
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\obj\Release\gameofdrones.back.Migrations.Initial.resources
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\obj\Release\gameofdrones.back.csproj.GenerateResource.cache
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\obj\Release\gameofdrones.back.Migrations.Initial1.resources
+C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\System.Web.Cors.dll
+C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\System.Web.Http.Cors.dll
+C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\System.Web.Http.Cors.xml
