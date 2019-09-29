@@ -1,3 +1,4 @@
+C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\WebGrease.dll
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\gameofdrones.back.dll.config
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\gameofdrones.back.dll
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\gameofdrones.back.pdb
@@ -70,7 +71,6 @@ C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\System
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\System.Web.WebPages.Deployment.dll
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\System.Web.WebPages.dll
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\System.Web.WebPages.Razor.dll
-C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\WebGrease.dll
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\EntityFramework.xml
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\EntityFramework.SqlServer.xml
 C:\temp\gameofdrones\gameofdrones-back\gameofdrones\gameofdrones.back\bin\Microsoft.Azure.KeyVault.Core.xml

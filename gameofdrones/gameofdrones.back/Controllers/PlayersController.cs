@@ -13,6 +13,7 @@ using gameofdrones.back.Models;
 
 namespace gameofdrones.back.Controllers
 {
+    [EnableCors("*", "*", "*")]
     public class PlayersController : ApiController
     {
         private gameofdronesbackContext db = new gameofdronesbackContext();
@@ -72,7 +73,7 @@ namespace gameofdrones.back.Controllers
         }
 
         // POST: api/Players
-        [EnableCors(origins: "http://gameofdronesfront.azurewebsites.net", headers: "*", methods: "*")]
+        [EnableCors(origins: "https://gameofdronesfront.azurewebsites.net", headers: "*", methods: "*")]
         [ResponseType(typeof(Player))]
         public IHttpActionResult PostPlayer(Player player)
         {
